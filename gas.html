@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html">
+  <title>fique em casa- Gas não vale mais do que a sua vida </title>
+  <meta name="author" content="Jake Rocheleau">
+  <link rel="shortcut icon" href="http://static.tmimgcdn.com/img/favicon.ico">
+  <link rel="icon" href="http://static.tmimgcdn.com/img/favicon.ico">
+  <link rel="stylesheet" type="text/css" media="all" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" media="all" href="css/switchery.min.css">
+  <script type="text/javascript" src="js/switchery.min.js"></script>
+</head>
+
+<body>
+  <div id="wrapper">
+  
+  <h1>SEJA BEM-VINDO A LEONARDO-SERVICES </h1>
+ <style>
+ h3{
+  height: 20px;
+  padding-top: 40px;
+ }
+ <h3 >PRESTAMOS SERVIÇOS PARA VOCE TODOS OS DIAS </h3></style> 
+  
+  <form onsubmit="return false">
+  <div class="col-2">
+    <label>
+      Nome
+      <input placeholder="Digite o Seu Nome" id="name" name="name" tabindex="1">
+    </label>
+  </div>
+  <div class="col-2">
+    <label>
+      Sua Empresa
+      <input placeholder="Onde Trabalhas?" id="company" name="company" tabindex="2">
+    </label>
+  </div>
+  
+  <div class="col-3">
+    <label>
+      Número de Telefone
+      <input placeholder="Qual é o seu numero de Telefone?" id="phone" name="phone" tabindex="3">
+    </label>
+  </div>
+  <div class="col-3">
+    <label>
+      Email
+      <input placeholder="Qual é o seu enderço enderçoe emai?" id="email" name="email" tabindex="4">
+    </label>
+  </div>
+  <div class="col-3">
+    <label>
+      Sua Preferncia
+      <select tabindex="5">
+        <option>Ao Domicilio </option>
+        <option>Ir a Busca</option>
+        <option>Reserva</option>
+      </select>
+    </label>
+  </div>
+  
+  <div class="col-4">
+    <label>
+      Bairro
+      <input placeholder="Facilite o Processo" id="skills" name="skills" tabindex="6">
+    </label>
+  </div>
+  <div class="col-4">
+    <label>
+      Explicação do Endereço
+      <input placeholder="Ajuda Nos a te Encontrar" id="experience" name="experience" tabindex="7">
+    </label>
+  </div>
+  <div class="col-4">
+    <label>Uma Botija?</label>
+    <center style="position:relative; margin-bottom:8px;"><input type="checkbox" class="js-switch"></center>
+  </div>
+  <div class="col-4 switch">
+    <label>Duas Botijas?</label>
+    <center style="position:relative;margin-bottom:8px;"><input type="checkbox" class="js-switch"></center>
+  </div>
+  
+  <div class="col-submit">
+    <button class="submitbtn">Feito</button>
+  </div>
+  
+  </form>
+  </div>
+<script type="text/javascript">
+var elems = Array.prototype.slice.call(document.querySelectorAll('.js-switch'));
+
+elems.forEach(function(html) {
+  var switchery = new Switchery(html);
+});
+</script>
+</body>
+</html>
